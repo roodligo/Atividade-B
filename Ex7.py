@@ -1,0 +1,5 @@
+print("Digite o tamanho do lado do quadrado: ")
+lado = input()
+area = float(lado) * float(lado)
+dobro = float(area * 2)
+print("O dobro da area do quadrado: %.2f " %dobro)
